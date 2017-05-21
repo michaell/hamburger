@@ -1,0 +1,103 @@
+.burgers_screen {
+	background-color: #f9b43b;
+	background-image: linear-gradient(to top, #f9b43b 0%, #eb8c38 48%, #f9b43b 74%, #f9b43b 100%);
+}
+
+.section_content__burger_img {
+	display: flex;
+	flex-direction: column;
+}
+
+.composition_btn {
+	display: flex;
+	background-color: #e35028;
+	width: 90px;
+	height: 90px;
+	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.composition_btn__desc {
+	color: white;
+	font-family: "Gagalin Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+//Weight icon 
+.section_content__weight {
+	width: 60px;
+	height: 75px;
+	opacity: 0.5;
+}
+
+.section_content__weight_desc {
+	text-align: center;
+	margin-top: -33px;
+}
+
+.section_content__kkal {
+	align-self: flex-start;
+}
+
+.section_content__weight_number {
+	color: white;
+	font-family: "Gagalin Regular";
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.section_content__weight_meaning {
+	@extend.section_content__weight_number;
+	font-size: 14px;
+}
+//Weight icon-end
+
+.section_content__burger_description {
+	color: #fff;
+}
+
+.section_content__burger_price {
+	@extend.section_headline;
+	color: #e35028;
+	.number {
+		font-size: 72px;
+	}
+	.currency {
+		font-size: 30px;
+	}
+}
+
+.section_content__burger_btn {
+	@extend.order_btn;
+	width: 130px;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

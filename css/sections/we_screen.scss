@@ -1,0 +1,24 @@
+.we_screen {
+	background-image: url(../img/content/we_screen/we_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section_content--we_screen {
+	justify-content: center;
+}
+
+.advantage {
+	flex: 1;
+	text-align: center;
+	&:nth-child(-n+2) {
+		margin-right: 20px;
+	}
+}
+
+.advantage__headline {
+	font-family: "Lifehack Medium";
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28px;
+}
