@@ -410,8 +410,7 @@ body {
   position: relative; }
 
 .container {
-  width: 940px;
-  margin: 0 auto; }
+  width: 940px; }
 
 img {
   vertical-align: middle; }
@@ -460,7 +459,10 @@ a {
   display: flex;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .order_btn, .section_content__burger_btn {
   background-color: #e45028;
@@ -589,7 +591,8 @@ a {
   display: flex;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 100px; }
 
 .we_screen {
   background-image: url(../img/content/we_screen/we_bg.jpg);

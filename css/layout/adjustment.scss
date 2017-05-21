@@ -27,7 +27,6 @@ body {
 
 .container {
 	width: 940px;
-	margin: 0 auto;
 }
 
 img {
@@ -82,6 +81,7 @@ a {
 	min-height: 650px;
 	display: flex;
 	align-items: center;
+	justify-content: center
 }
 
 //Order buttons
