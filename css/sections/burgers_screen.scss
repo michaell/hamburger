@@ -23,8 +23,12 @@
 	font-family: "Gagalin Regular";
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 28px;
 }
+
+.section_content__hamburger_black {
+	margin-top: -20px;
+}
+
 
 //Weight icon 
 .section_content__weight {
@@ -40,6 +44,7 @@
 
 .section_content__kkal {
 	align-self: flex-start;
+	margin-top: 7px;
 }
 
 .section_content__weight_number {
@@ -52,16 +57,30 @@
 .section_content__weight_meaning {
 	@extend.section_content__weight_number;
 	font-size: 14px;
+	margin-top: 7px;
 }
 //Weight icon-end
 
+.section_content__burger {
+	margin-left: 26px;
+	margin-top: -10px;
+}
+
+.section_headline--burger {
+	line-height: 63px;
+	margin-bottom: 40px;
+}
+
 .section_content__burger_description {
 	color: #fff;
+	margin-bottom: 13px;
 }
 
 .section_content__burger_price {
 	@extend.section_headline;
 	color: #e35028;
+	display: inline-block;
+   margin-right: 22px;
 	.number {
 		font-size: 72px;
 	}
@@ -70,12 +89,20 @@
 	}
 }
 
+.currency {
+	margin-left: -20px;
+}
+
 .section_content__burger_btn {
 	@extend.order_btn;
-	width: 130px;
+	display: inline-block;
 	color: white;
 	text-align: center;
+	font-size: 13px;
+	padding: 6px 17px;
 }
+
+
 
 
 

@@ -4,6 +4,11 @@
 	background-size: cover;
 }
 
+.section_headline--we_screen {
+	text-align: center;
+	margin-bottom: 76px;
+}
+
 .section_content--we_screen {
 	justify-content: center;
 }
@@ -14,6 +19,16 @@
 	&:nth-child(-n+2) {
 		margin-right: 20px;
 	}
+}
+
+.advantage__pic {
+	width: 97px;
+	height: 90px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.advantage__img {
 }
 
 .advantage__headline {
