@@ -4,6 +4,13 @@
 	background-size: cover;
 	display: flex;
 	justify-content: flex-end;
+	position: relative;
+}
+
+.section_headline--menu {
+	position: absolute;
+	top: 90px;
+   left: 95px;
 }
 
 .verticals {
@@ -39,6 +46,7 @@
 	opacity: 0.93;
 	background-color: #2f3234;
 	height: 100vh;
+	display: none;
 	
 }
 
